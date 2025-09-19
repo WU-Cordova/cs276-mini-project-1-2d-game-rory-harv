@@ -1,0 +1,69 @@
+# Alien Frog Invasion 
+
+## Play the Game
+**Unity Play Link**: (https://play.unity.com/en/games/f02dd412-9c12-4072-b6d9-78df23632b1f/spriteflight2dgame)
+
+## Game Overview
+Alien frogs have inflitrated space! Protect your aircraft from aliens by avoiding them as obstacles. 
+
+### Controls
+- Mouse activated to initiate movement of aircraft (press and hold left mouse button to drag aircraft throughout space)
+
+### How to Play
+Avoid all aliens and game borders! Press and hold on left mouse button to "drag" your aircraft through space. 
+
+## Base Game Implementation
+
+### Completion Status
+- [Y] Player movement and controls
+- [Y] Obstacle spawning system
+- [Y] Collision detection
+- [Y] Score system
+- [Y] Game over state
+
+### Known Bugs
+- Some obstacles spawn outside of border bounds.
+
+### Limitations
+- Obstacle spawning.
+
+## Extensions Implemented
+
+### 1. Create a Cohesive Color Scheme (2 points)
+**Implementation**: Found cohesive color palette for space theme.
+**Game Impact**: Makes game more visually pleasing.
+**Technical Details**: None.
+**Known Issues**: None.
+
+### 2. Change Your Entire Game Concept (3 points)
+**Implementation**: Turned obstacles into alien frogs.
+**Game Impact**: Makes game more exciting and cute.
+**Technical Details**: Expanded rigidbody and colliders to keep obstacle as one game object.
+**Known Issues**: None.
+
+### 3. Destroy the Borders on Game Over (4 points)
+**Implementation**: Eliminate border game objects at end of game.
+**Game Impact**: Makes end of game more emphasizes and allows objects to travel off screen.
+**Technical Details**: Set true/false condition in code for game.
+**Known Issues**: None.
+
+### 4. Increase Difficulty Over Time (5 points)
+**Implementation**: Increase strength of obstacles in game.
+**Game Impact**: Makes game more intense as obstacles begin to travel faster.
+**Technical Details**: Increased bounce material so each obstacle gains more speed after a collision.
+**Known Issues**: None.
+
+### 5. Animate the Booster Graphic with Audio (6 points)
+**Implementation**: Added activated booster flame to spacecraft.
+**Game Impact**: Better simulates how an aircraft would be boosted with fire.
+**Technical Details**: Added booster flame to move with mouse activation.
+**Known Issues**: Could not implement audio.
+
+## Credits
+None
+
+## Reflection
+**Total Points Claimed**: [Base: 80% + Extensions: 17% = 97%]
+**Challenges**: After attempting to add an extension to the project, my obstacles randomly started spawning outside the game borders, and I couldn't revert it back to a previous state before I made the alterations, so they continued to spawn outside the borders every few games. 
+**Learning Outcomes**: How to better navigate Unity as a software as a whole, but also better understand the intricacies that go into building each individual component of a 2D game.
+
